@@ -7,7 +7,7 @@ const progressBar = document.getElementById('progress-bar');
 const songTitle = document.getElementById('song-title');
 
 const songs = [
-  { title: 'lamine yamal', file: 'audio/Lamine Yamal - Y QUE FUE_ (Don Miguelo).mp3', image: 'images/capture.JPG' },
+  { title: 'lamine yamal', file: 'audio/Lamine Yamal - Y QUE FUE_ (Don Miguelo).mp3', image: 'images/lamine yamal.JPG' },
   { title: 'doue', file: 'audio/doue.mp3', image: 'images/doue.JPG' }
 ];
 
