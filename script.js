@@ -10,6 +10,7 @@ const songs = [
   { title: 'lamine yamal', file: 'audio/Lamine Yamal - Y QUE FUE_ (Don Miguelo).mp3', image: 'images/lamine yamal.JPG' },
   { title: 'doue', file: 'audio/doue.mp3', image: 'images/doue.JPG' },
   { title: 'neymar', file: 'audio/neymar.mp3', image: 'images/neymar.JPG' },
+  { title: 'nico williams', file: 'audio/nico williams.mp3', image: 'images/nico williams.JPG' },
 ];
 
 let currentSongIndex = 0;
