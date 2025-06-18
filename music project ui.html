@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Animated Music Player</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     
+
+     
+
+  <div class="player">
+     <img id="cover" src="images/lamine yamal.JPG" alt="Album Cover" class="cover">
+    <h1 id="song-title">Song Title</h1>
+    <div id="stats">
+  <p id="goals">Goals: 0</p>
+  <p id="assists">Assists: 0</p>
+  <p id="matches">Matches: 0</p>
+</div>
+
+    <div class="controls">
+      <button id="rewind"><img src="https://img.icons8.com/ios-glyphs/30/000000/rewind.png"/></button>
+      <button id="play"><img src="https://img.icons8.com/ios-glyphs/30/000000/play.png"/></button>
+      <button id="next"><img src="https://img.icons8.com/ios-glyphs/30/000000/forward.png"/></button>
+      <button id="repeat"><img src="https://img.icons8.com/ios-glyphs/30/000000/repeat.png"/></button>
+    </div>
+    <div class="progress-container" id="progress-container">
+      <div class="progress-bar" id="progress-bar"></div>
+    </div>
+  </div>
+<!-- Background Animation -->
+  <div class="background-animation">
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+  <audio id="audio"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
