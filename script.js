@@ -71,7 +71,14 @@ const players = [
     matches: 40,
     image: 'images/raphinha.JPG',
     song: 'audio/raphinha.mp3',
-  }
+  },
+  {    name: 'Afif',
+       goals: 23,
+       assists: 20,
+       matches: 36,
+       image: 'images/afif.JPG',
+       song: 'audio/afif.mp3',
+  },
 ];
 
 let currentSongIndex = 0;
