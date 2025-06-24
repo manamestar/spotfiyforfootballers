@@ -89,6 +89,14 @@ const players = [
     matches: 52,
     image: 'images/olise.JPG',
     song: 'audio/olise.mp3',
+  },
+  {
+    name: 'Vinicius Jr',
+    goals: 21,           
+    assists: 18,
+    matches: 54,
+    image: 'images/vini jr.JPG',
+    song: 'audio/vini jr.mp3',
   }
 ];
 
