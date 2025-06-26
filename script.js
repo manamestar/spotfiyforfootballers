@@ -230,4 +230,26 @@ volumeSlider.addEventListener('input', () => {
 // Initialize slider background on page load
 updateVolumeSliderBackground(volumeSlider.value);
 
+// Top Scorers Button + Leaderboard display
+const topScorersBtn = document.getElementById('top-scorers-btn');
+const topScorersList = document.getElementById('top-scorers-list');
 
+topScorersBtn.addEventListener('click', () => {
+  // Sort players by goals descending
+  const sortedPlayers = [...players].sort((a, b) => b.goals - a.goals);
+  
+  // Generate leaderboard HTML
+  const leaderboardHTML = sortedPlayers.map((player, index) =>
+    `<p style="margin:5px 0;">${index + 1}. <strong>${player.name}</strong> — ⚽ ${player.goals} Goals</p>`
+  ).join('');
+
+  // Display in leaderboard container
+  topScorersList.innerHTML = leaderboardHTML;
+  
+  // Toggle visibility
+  if (topScorersList.style.display === 'block') {
+    topScorersList.style.display = 'none';
+  } else {
+    topScorersList.style.display = 'block';
+  }
+});
