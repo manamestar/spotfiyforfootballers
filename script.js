@@ -105,6 +105,14 @@ const players = [
         image: 'images/zlatan.JPG',
         song: 'audio/zlatan.mp3',
   },
+  {
+    name: 'cristiano ronaldo',
+    goals: 999,        // All-time great, stats reflect career achievements
+    assists: 999,
+    matches: 999,
+    image: 'images/cristiano ronaldo.JPG',
+    song: 'audio/cristiano ronaldo.mp3',
+  }
 
 ];
 
