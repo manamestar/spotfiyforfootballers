@@ -183,3 +183,27 @@ body {
   z-index: 1;
 }
 
+#top-scorers-btn {
+  background: #38bdf8;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  margin-top: 10px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+}
+
+#top-scorers-list {
+  margin-top: 15px;
+  padding: 10px;
+  background: #1e293b;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.hidden {
+  display: none;
+}
+
+
