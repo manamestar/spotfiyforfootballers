@@ -119,7 +119,7 @@ const players = [
     assists: 12,
     matches: 34,
     image: 'images/rafael leao.JPG',
-    audio: 'audio/rafael leao.mp3',
+    song: 'audio/rafael leao.mp3',
   }
 
 ];
