@@ -118,6 +118,8 @@ const players = [
     goals: 8,
     assists: 12,
     matches: 34,
+    image: 'images/rafael leao.JPG',
+    audio: 'audio/rafael leao.MP3',
   }
 
 ];
