@@ -114,7 +114,7 @@ const players = [
     song: 'audio/cristiano ronaldo.mp3',
   },
   {
-    name: 'rafael leao',
+     name: 'rafael leao',
     goals: 8,
     assists: 12,
     matches: 34,
