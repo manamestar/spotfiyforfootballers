@@ -36,6 +36,14 @@ const players = [
     song: 'audio/Lamine Yamal  SHAKE BODY  SKALES.mp3',
   },
   {
+    name: 'Lamine yamal (3)',
+    goals: 15,
+    assists: 18,
+    matches: 50,
+    image:  'images/lamine yamal.JPG',
+    song: 'audio/Lamine Yamal ELA FALA QUE EU SOU TODO SISTEMATICO VS NAMORAR NÃO DÁ [FUNK TIKTOK] - RILMAR SUCESSADA.mp3'
+  },
+  {
     name: 'Désiré Doué',
     goals: 12,
     assists: 12,
