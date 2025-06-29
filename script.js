@@ -36,7 +36,7 @@ const players = [
     song: 'audio/Lamine Yamal  SHAKE BODY  SKALES.mp3',
   },
   {
-    name: 'Lamine yamal (3)',
+    name: 'Lamine Yamal (3)',
     goals: 15,
     assists: 18,
     matches: 50,
